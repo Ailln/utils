@@ -1,0 +1,8 @@
+env: dev
+dev:
+  mongo:
+    user: dev
+    pwd: dev
+    host: 0.0.0.0
+    port: 6666
+    db_name: dev
