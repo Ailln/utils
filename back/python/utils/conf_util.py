@@ -1,9 +1,11 @@
-import yaml
+from ruamel.yaml import YAML
+
+yaml = YAML()
 
 
 def get_yaml(yaml_path):
     with open(yaml_path, "r") as f_yaml:
-        yaml_data = yaml.load(f_yaml, Loader=yaml.FullLoader)
+        yaml_data = yaml.load(f_yaml)
     return yaml_data
 
 
