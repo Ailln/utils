@@ -1,5 +1,5 @@
 pymongo>=3.8.0
 ruamel.yaml>=0.16.5
 flask>=0.12.4
-flask_cors==3.0.3
+flask_cors==3.0.9
 flask_restful==0.3.6
